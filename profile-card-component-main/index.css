@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.background {
+    display: flex;
+}
+
+.bg-top {
+    
+}
+
+.bg-bottom {
+
+}
+
+.card-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    height: 350px;
+    width: 280px;
+    background-color: #FFF;
+}
+.attribution {
+
+}

@@ -1,0 +1,5 @@
+- Para que o overflow: hidden; funcione é preciso setar um position.
+
+- Para setar um z-index: int-value; é necessário setar o position também.
+
+- As imagens quando são setadas para background, por padrão ela é repetida. Para que isso não aconteça é utilizada a propriedade CSS background-repeat: no-repeat;

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Aula 01</title>
+		<script type="text/javascript" src="javascript/main.js"></script>
+	</head>
+	<body>
+        <h1>Manipulando elementos com Javascript</h1>
+        <button type="button" onClick="button()">Clique aqui</button>
+        <p id="clickedButton" onclick="redirect()"></p>
+        <p onmouseover="mousePassed(this)" onmouseout="mouseOuted(this)">Ao passar o mouse, a mensagem irá mudar.</p>
+        <p onmouseover="mousePassed(this)" onmouseout="mouseOuted(this)">Este é um segundo ponto, onde ao passar o mouse a mensagem muda</p>
+
+        <select name="selectOption" id="" onchange="changedValue(this)">
+            <option value="op1">Opção 1</option>
+            <option value="op2">Opção 2</option>
+        </select>
+	</body>
+</html>
